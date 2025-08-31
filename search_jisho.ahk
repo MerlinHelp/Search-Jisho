@@ -15,7 +15,7 @@
             } else {
                 search_term := StrReplace(A_Clipboard, " ", "%20")
             }
-            Run "C:\Program Files\Google\Chrome\Application\chrome.exe --profile-directory=Default https://jisho.org/search/" search_term
+            Run "chrome.exe --profile-directory=Default https://jisho.org/search/" search_term
         }
     }
     Sleep(100)
